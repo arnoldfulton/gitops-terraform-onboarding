@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gitops_terraform_onboarding_1744981409287-pr-trigger-input-set
+  identifier: Build_gitops_terraform_onboarding_1744981409287prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gitops_terraform_onboarding_1744981409287
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
