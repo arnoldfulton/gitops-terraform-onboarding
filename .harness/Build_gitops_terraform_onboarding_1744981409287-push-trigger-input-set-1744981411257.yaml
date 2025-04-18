@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gitops_terraform_onboarding_1744981409287-push-trigger-input-set
+  identifier: Build_gitops_terraform_onboarding_1744981409287pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gitops_terraform_onboarding_1744981409287
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
